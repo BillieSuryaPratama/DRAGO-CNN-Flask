@@ -5,7 +5,7 @@ import numpy as np
 import os
 
 app = Flask(__name__)
-model = load_model("ModelBaru84.keras")
+model = load_model("Model.keras")
 class_names = ['Antraknosa', 'Bercak Coklat', 'Hawar Daun', 'Sehat', 'Busuk', 'Kanker Batang']
 img_height, img_width = 180, 180
 
