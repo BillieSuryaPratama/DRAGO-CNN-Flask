@@ -6,7 +6,7 @@ import os
 
 app = Flask(__name__)
 model = load_model("Model.keras")
-class_names = ['Antraknosa', 'Bercak Coklat', 'Hawar Daun', 'Sehat', 'Busuk', 'Kanker Batang']
+class_names = ['Antraknosa', 'Bercak Coklat', 'Hawar', 'Sehat', 'Busuk Batang', 'Kanker Batang']
 img_height, img_width = 180, 180
 
 @app.route('/predict', methods=['POST'])

@@ -1,6 +1,6 @@
 ﻿# DRAGO CNN Flask
 
-Program backend berbasis Flask yang menggunakan model CNN (Convolutional Neural Network) untuk mendeteksi penyakit pada **daun buah naga**. Aplikasi ini menerima gambar daun sebagai input dan memberikan prediksi jenis penyakit serta tingkat kepercayaan hasil prediksi tersebut.
+Program backend berbasis Flask yang menggunakan model CNN (Convolutional Neural Network) untuk mendeteksi penyakit pada batang buah naga. Aplikasi ini menerima gambar daun sebagai input dan memberikan prediksi jenis penyakit serta tingkat kepercayaan hasil prediksi tersebut.
 
 ## Model AI
 
@@ -9,9 +9,9 @@ Model CNN telah dilatih menggunakan dataset gambar daun buah naga, dan mampu men
 ### Kelas yang Dideteksi:
 - Antraknosa
 - Bercak Coklat
-- Hawar Daun
+- Hawar
 - Sehat
-- Busuk
+- Busuk Batang
 - Kanker Batang
 
 ---
