@@ -11,13 +11,7 @@ img_height, img_width = 180, 180
 
 @app.route('/predict', methods=['POST'])
 def predict():
-    if 'imagefile' not in request.files:
-        return jsonify({'error': 'No file part'}), 400
-
     imagefile = request.files['imagefile']
-    if imagefile.filename == '':
-        return jsonify({'error': 'No selected file'}), 400
-
     image_path = os.path.join('./image', imagefile.filename)
     imagefile.save(image_path)
 
